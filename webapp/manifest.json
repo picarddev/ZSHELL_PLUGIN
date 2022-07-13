@@ -96,7 +96,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/sap/zshell /webapp",
+		"uri": "/sap/bc/ui5_ui5/sap/zshell/webapp",
 		"_version": "1.1.0"
 	}
 }

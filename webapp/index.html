@@ -15,8 +15,34 @@
 			data-sap-ui-resourceroots='{"com.picard.refresh.ZSHELL_PLUGIN": "./"}'
 			data-sap-ui-frameOptions="trusted">
 		</script>
-	</head>
-	<body class="sapUiBody">
-		<div data-sap-ui-component data-name="com.picard.refresh.ZSHELL_PLUGIN" data-id="container" data-settings='{"id" : "ZSHELL_PLUGIN"}'></div>
-	</body>
+		
+		
+		
+		
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+		sap.ui.getCore().attachInit(function () {
+			sap.ui.require([
+				"sap/m/Shell",
+				"sap/ui/core/ComponentContainer"
+			], function (Shell, ComponentContainer) {
+				// initialize the UI component
+				new Shell({
+					app: new ComponentContainer({
+						height : "100%",
+						async: true,
+						name : "com.picard.refresh"
+					})
+				}).placeAt("content");
+			});
+		});
+	</script>
+	
+	
+</head>
+
+<!-- UI Content -->
+<body class="sapUiBody" id="content">
+</body>
+
 </html>
