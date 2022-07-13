@@ -1,6 +1,6 @@
 specVersion: '1.0'
 metadata:
-  name: ZSHELL_PLUGIN
+  name: zshell_plugin
 type: application
 resources:
   configuration:

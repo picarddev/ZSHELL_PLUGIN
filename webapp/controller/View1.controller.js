@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("com.picard.refresh.ZSHELL_PLUGIN.controller.View1", {
+	return Controller.extend("com.picard.refresh.zshell_plugin.controller.View1", {
 		onInit: function () {
 
 		}

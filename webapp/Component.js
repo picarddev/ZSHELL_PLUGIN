@@ -1,11 +1,11 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"com/picard/refresh/ZSHELL_PLUGIN/model/models"
+	"com/picard/refresh/zshell_plugin/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("com.picard.refresh.ZSHELL_PLUGIN.Component", {
+	return UIComponent.extend("com.picard.refresh.zshell_plugin.Component", {
 
 		metadata: {
 			manifest: "json"

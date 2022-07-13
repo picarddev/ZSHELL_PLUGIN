@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "com.picard.refresh.ZSHELL_PLUGIN",
+		"id": "com.picard.refresh.zshell_plugin",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -33,7 +33,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "com.picard.refresh.ZSHELL_PLUGIN.view.View1",
+			"viewName": "com.picard.refresh.zshell_plugin.view.View1",
 			"type": "XML",
 			"async": true,
 			"id": "View1"
@@ -54,7 +54,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "com.picard.refresh.ZSHELL_PLUGIN.i18n.i18n"
+					"bundleName": "com.picard.refresh.zshell_plugin.i18n.i18n"
 				}
 			}
 		},
@@ -70,7 +70,7 @@
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "com.picard.refresh.ZSHELL_PLUGIN.view",
+				"viewPath": "com.picard.refresh.zshell_plugin.view",
 				"controlAggregation": "pages",
 				"controlId": "app",
 				"clearControlAggregation": false
